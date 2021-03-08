@@ -22,9 +22,8 @@ class Blockchain {
 
         //should skip first block
         for (let i = 1; i < chain.length; i++) {
-            const block = chain[i];
             const actualLastHash = chain[i-1].hash;
-            const { timestamp, lastHash, hash, data } = block;
+            const { timestamp, lastHash, hash, data } = chain[i];
 
             if (lastHash !== actualLastHash) {
                 return false;
@@ -38,6 +37,18 @@ class Blockchain {
         }
 
         return true;
+    }
+
+    replaceChain(chain) {
+        if (chain.length <= this.chain.length) {
+            return;
+        }
+
+        if(!Blockchain.isValidChain(chain)) {
+            return ;
+        }
+
+        this.chain = chain;
     }
 }
 
