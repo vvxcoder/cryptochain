@@ -1,7 +1,8 @@
 const Blockchain = require('../src/blockchain');
-
 const blockchain = new Blockchain();
+
 blockchain.addBlock({ data: 'initial' });
+console.log('first block = ', blockchain.chain[blockchain.chain]);
 let prevTimestamp, nextTimestamp, nextBlock, timeDiff, average;
 let times = [];
 
