@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon src/index.js",
     "start": "node src/index.js",
     "start-redis": "redis-server --daemonize yes",
     "test": "jest --watchAll ./tests"
@@ -29,6 +30,7 @@
     "redis": "^2.8.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "nodemon": "^1.18.4"
   }
 }
