@@ -1,4 +1,4 @@
-const Wallet = require('../src/wallet');
+const Wallet = require('../src/wallet/index');
 
 describe('Wallet', () => {
     let wallet;
@@ -12,6 +12,7 @@ describe('Wallet', () => {
     });
 
     it('has a `publicKey`', () => {
+        console.log(wallet.publicKey);
         expect(wallet).toHaveProperty('publicKey');
     });
 });

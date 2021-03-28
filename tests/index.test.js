@@ -72,14 +72,14 @@ describe('Blockchain', () => {
                         const difficulty = lastBlcok.difficulty - 3;
                         const hash = cryptoHash(timestamp, lastHash, difficulty, nonce, data);
                         const badBlock = new Block({ timestamp, lastHash, hash, difficulty, nonce, data });
-                        blockchain = [...blockchain, badBlock];
+                        blockchain.chain.push(badBlock);
                         expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
                     });
                 });
     
                 describe('and the chain does not contain any invalid blocks', () => {
                     it('returns true', () => {
-                        expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);
+                        expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
                     });
                 });
             });
