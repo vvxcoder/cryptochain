@@ -31,7 +31,8 @@
     "hex-to-binary": "^1.0.1",
     "jest": "^26.6.3",
     "pubnub": "^4.29.11",
-    "redis": "^2.8.0"
+    "redis": "^2.8.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
