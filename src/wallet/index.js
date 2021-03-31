@@ -18,7 +18,7 @@ class Wallet {
             throw new Error('Amount exceeds balance');
         }
 
-        return new Transaction({ senderWallet, amount, recipient });
+        return new Transaction({ senderWallet: this, amount, recipient });
     }
 }
 

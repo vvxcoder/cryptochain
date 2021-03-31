@@ -18,6 +18,8 @@ describe('Wallet', () => {
     });
     
     describe('signing data', () => {
+        const data = 'foobar';
+        
         it('verifies a signature', () => {
             expect(
                 verifySignature({
@@ -64,7 +66,7 @@ describe('Wallet', () => {
                 expect(transaction.input.address).toEqual(wallet.publicKey);
             });
 
-            it('outputs the amount the recipient', () => {
+            it('outputs the amount the recipient', () => {                
                 expect(transaction.outputMap[recipient]).toEqual(amount);
             });
         });
