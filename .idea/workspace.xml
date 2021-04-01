@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4baf68-accc-4276-ae4e-4d4af000cdec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet/transaction-pool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet/transaction-pool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/transaction-pool.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/transaction-pool.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,26 +31,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="19" />
+          <entry key="js" value="21" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="19" />
+          <entry key="JavaScript" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2072" />
-          <entry key="txt" value="129" />
+          <entry key="js" value="2649" />
+          <entry key="txt" value="194" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2072" />
-          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="JavaScript" value="2649" />
+          <entry key="PLAIN_TEXT" value="194" />
         </counts>
       </usages-collector>
     </session>
@@ -55,10 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/tests/transaction-pool.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="171">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -93,9 +96,9 @@
         <option value="$PROJECT_DIR$/tests/index.test.js" />
         <option value="$PROJECT_DIR$/tests/transactions.spec.js" />
         <option value="$PROJECT_DIR$/src/transaction/transaction.js" />
-        <option value="$PROJECT_DIR$/tests/transaction-pool.spec.js" />
-        <option value="$PROJECT_DIR$/src/wallet/transaction-pool.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/wallet/transaction-pool.js" />
+        <option value="$PROJECT_DIR$/tests/transaction-pool.spec.js" />
       </list>
     </option>
   </component>
@@ -115,10 +118,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -139,6 +141,11 @@
               <item name="cryptochain" type="b2602c69:ProjectViewProjectNode" />
               <item name="cryptochain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cryptochain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cryptochain" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +188,7 @@
       <workItem from="1613894896624" duration="117000" />
       <workItem from="1615747612431" duration="5540000" />
       <workItem from="1617025845644" duration="10336000" />
-      <workItem from="1617297625535" duration="3981000" />
+      <workItem from="1617297625535" duration="8671000" />
     </task>
     <task id="LOCAL-00001" summary="Add transaction inputs.">
       <created>1617026963999</created>
@@ -211,17 +218,30 @@
       <option name="project" value="LOCAL" />
       <updated>1617300834431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="API transactions and main transaction pool.">
+      <created>1617302222682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617302222682</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Handle invalid transactions.">
+      <created>1617303257456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617303257456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20090000" />
+    <option name="totallyTimeSpent" value="24780000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1006" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12335266" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -236,7 +256,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44050342" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44050342" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,7 +273,9 @@
     <MESSAGE value="Add cohesive utility." />
     <MESSAGE value="Add validate transaction." />
     <MESSAGE value="Create the transaction pool and set transaction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the transaction pool and set transaction." />
+    <MESSAGE value="API transactions and main transaction pool." />
+    <MESSAGE value="Handle invalid transactions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Handle invalid transactions." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/block.js" />
@@ -320,22 +342,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wallet/transaction-pool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/transaction-pool.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
+        <state relative-caret-position="228">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/transaction-pool.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
