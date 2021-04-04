@@ -1,4 +1,5 @@
 const Block = require('./block');
+const Wallet = require('../wallet');
 const { cryptoHash } = require('../util');
 const { REWARD_INPUT } = require('../../config');
 
